@@ -49,7 +49,7 @@ public class Maj2 extends HttpServlet {
 	    Class.forName("com.mysql.jdbc.Driver");
 	    
 	    // connexion a la base
-	    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/anima","gabrielle","gaby");
+	    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/anima","root","truc");
 	    
 	    String login = req.getParameter("login");
 	    String mdp = req.getParameter("mdp");

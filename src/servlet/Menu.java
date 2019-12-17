@@ -45,7 +45,7 @@ public class Menu extends HttpServlet
 			if(p.role.equals("adm"))
 				out.println("<li class='btn btn-default btn-lg'><a href='Select'>Voir les infos</a></li>");
 				out.println("<li class='btn btn-default btn-lg'><a href='Maj'>Modifier vos infos</a></li>");
-				out.println("<li class='btn btn-default btn-lg'><a href='Deconnect'>DÃ©connexion</a></li>");
+				out.println("<li class='btn btn-default btn-lg'><a href='Deconnect'>Déconnexion</a></li>");
 			out.println("</ul>");
 			out.println("</nav>");
 		    out.println("</div>");
